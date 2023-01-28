@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logowanie do aplikacji carrefour z błędnymi danymi</description>
+   <name>Logowanie_z_blednymi_wartosciami</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4237338-39ae-462d-bef3-49959751777f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51cca826-f33b-443c-959d-166310a0dac4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce66ca83-4f3f-4739-99dd-b3e6d42dc069</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8916333-05e0-4e50-9fe6-26e636dc794f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95f6cda2-2ade-4ccb-b6dc-26b43f081f20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c115118c-e5c2-4ee2-8f9c-c8ce301b3994</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>789aec77-9200-48ce-bf76-e31ca3f3e4b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fbe39a5-bbb8-467c-9fac-c755de232a08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>563c6c97-8f17-4dde-9ce7-419b0100043d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>296bf830-c7dc-464b-b591-db6b47449a2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afa309c2-357f-421a-a8ff-e30303c8284b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Adam'</defaultValue>
+      <description>Imie użytkownika</description>
+      <id>51cca826-f33b-443c-959d-166310a0dac4</id>
+      <masked>false</masked>
+      <name>imie</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kowalski'</defaultValue>
+      <description>Nazwisko użytkownika</description>
+      <id>ce66ca83-4f3f-4739-99dd-b3e6d42dc069</id>
+      <masked>false</masked>
+      <name>nazwisko</name>
+   </variable>
+   <variable>
+      <defaultValue>'adiszpaddi123321@gmail.com'</defaultValue>
+      <description>Email użytkownika</description>
+      <id>b8916333-05e0-4e50-9fe6-26e636dc794f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty123'</defaultValue>
+      <description>Hasło użytkownika</description>
+      <id>95f6cda2-2ade-4ccb-b6dc-26b43f081f20</id>
+      <masked>false</masked>
+      <name>haslo</name>
+   </variable>
+   <variable>
+      <defaultValue>'52-200'</defaultValue>
+      <description>Kod pocztowy użytkownika</description>
+      <id>c115118c-e5c2-4ee2-8f9c-c8ce301b3994</id>
+      <masked>false</masked>
+      <name>kodpocztowy</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katowice'</defaultValue>
+      <description>Miasto użytkownika</description>
+      <id>789aec77-9200-48ce-bf76-e31ca3f3e4b4</id>
+      <masked>false</masked>
+      <name>miasto</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bystrzycka 5'</defaultValue>
+      <description>Ulica i numer użytkownika</description>
+      <id>4fbe39a5-bbb8-467c-9fac-c755de232a08</id>
+      <masked>false</masked>
+      <name>ulicainumer</name>
+   </variable>
+   <variable>
+      <defaultValue>'sgsr'</defaultValue>
+      <description>Telefon użytkownika</description>
+      <id>563c6c97-8f17-4dde-9ce7-419b0100043d</id>
+      <masked>false</masked>
+      <name>telefon</name>
+   </variable>
+   <variable>
+      <defaultValue>'BigAdam'</defaultValue>
+      <description>Login użytkownika</description>
+      <id>296bf830-c7dc-464b-b591-db6b47449a2c</id>
+      <masked>false</masked>
+      <name>login</name>
+   </variable>
+   <variable>
+      <defaultValue>'Podany telefon jest błędny.'</defaultValue>
+      <description>Komunikat błędu</description>
+      <id>afa309c2-357f-421a-a8ff-e30303c8284b</id>
+      <masked>false</masked>
+      <name>error_msg</name>
+   </variable>
+</TestCaseEntity>

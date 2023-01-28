@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REJESTR_WEDKARSKI,Chrome 109.0.0.0,,,2023-01-28 01:43:06,2023-01-28 01:43:29,"22,914s",PASSED
+,,,,,,,
+Test Cases/SKLEPWEDKARSKI_REJESTRACJA/Logowanie_z_blednymi_wartosciami,Chrome 109.0.0.0,Logowanie do aplikacji carrefour z błędnymi danymi,,2023-01-28 01:43:07,2023-01-28 01:43:29,"22,531s",PASSED
+"openBrowser(""https://sklepwedkarski.pl/"")",Chrome 109.0.0.0,,,2023-01-28 01:43:08,2023-01-28 01:43:11,"3,820s",PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-28 01:43:11,2023-01-28 01:43:12,"0,198s",PASSED
+"click(findTestObject(""Object Repository/PAGE_MAIN/cookie""))",Chrome 109.0.0.0,,,2023-01-28 01:43:12,2023-01-28 01:43:12,"0,719s",PASSED
+"click(findTestObject(""Object Repository/PAGE_MAIN/lnk_zalozkonto""))",Chrome 109.0.0.0,,,2023-01-28 01:43:12,2023-01-28 01:43:14,"2,162s",PASSED
+"click(findTestObject(""Object Repository/PAGE_LOGIN/lnk_rejestracja""))",Chrome 109.0.0.0,,,2023-01-28 01:43:14,2023-01-28 01:43:16,"1,167s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_imie""), imie)",Chrome 109.0.0.0,,,2023-01-28 01:43:16,2023-01-28 01:43:17,"0,966s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_nazwisko""), nazwisko)",Chrome 109.0.0.0,,,2023-01-28 01:43:17,2023-01-28 01:43:18,"1,305s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_ulicainumer""), ulicainumer)",Chrome 109.0.0.0,,,2023-01-28 01:43:18,2023-01-28 01:43:19,"0,946s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_miasto""), miasto)",Chrome 109.0.0.0,,,2023-01-28 01:43:19,2023-01-28 01:43:20,"0,935s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_kodpocztowy""), kodpocztowy)",Chrome 109.0.0.0,,,2023-01-28 01:43:20,2023-01-28 01:43:21,"1,054s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_telefon""), telefon)",Chrome 109.0.0.0,,,2023-01-28 01:43:21,2023-01-28 01:43:22,"0,830s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_email""), email)",Chrome 109.0.0.0,,,2023-01-28 01:43:22,2023-01-28 01:43:23,"1,108s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_login""), login)",Chrome 109.0.0.0,,,2023-01-28 01:43:23,2023-01-28 01:43:24,"0,890s",PASSED
+"setText(findTestObject(""Object Repository/PAGE_REGISTER/inp_haslo""), haslo)",Chrome 109.0.0.0,,,2023-01-28 01:43:24,2023-01-28 01:43:25,"1,781s",PASSED
+"click(findTestObject(""Object Repository/PAGE_REGISTER/inp__checkbox_regulamin""))",Chrome 109.0.0.0,,,2023-01-28 01:43:25,2023-01-28 01:43:26,"0,556s",PASSED
+"click(findTestObject(""Object Repository/PAGE_REGISTER/btn_zalozkonto""))",Chrome 109.0.0.0,,,2023-01-28 01:43:26,2023-01-28 01:43:27,"1,146s",PASSED
+delay(1),Chrome 109.0.0.0,,,2023-01-28 01:43:27,2023-01-28 01:43:28,"1,029s",PASSED
+"el_error_msg = getText(findTestObject(""Object Repository/PAGE_REGISTER2/str_error_msg""))",Chrome 109.0.0.0,,,2023-01-28 01:43:28,2023-01-28 01:43:29,"0,378s",PASSED
+assert error_msg == el_error_msg,Chrome 109.0.0.0,,,2023-01-28 01:43:29,2023-01-28 01:43:29,"0,003s",PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-28 01:43:29,2023-01-28 01:43:29,"0,708s",PASSED

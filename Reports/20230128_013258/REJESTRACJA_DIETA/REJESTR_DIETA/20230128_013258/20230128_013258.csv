@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REJESTR_DIETA,Chrome 109.0.0.0,,,2023-01-28 01:33:01,2023-01-28 01:33:18,"17,148s",PASSED
+,,,,,,,
+Test Cases/DIETETYKA_REJESTRACJA/Rejestracja z błędnymi wartościami,Chrome 109.0.0.0,,,2023-01-28 01:33:01,2023-01-28 01:33:18,"16,835s",PASSED
+"openBrowser(""https://dietetykanienazarty.pl/"")",Chrome 109.0.0.0,,,2023-01-28 01:33:02,2023-01-28 01:33:06,"4,052s",PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-28 01:33:06,2023-01-28 01:33:06,"0,263s",PASSED
+"click(findTestObject(""Object Repository/DIETETYKA_HOMEPAGE/lnk_logowanie""))",Chrome 109.0.0.0,,,2023-01-28 01:33:06,2023-01-28 01:33:09,"2,099s",PASSED
+"click(findTestObject(""Object Repository/DIETETYKA_LOGOWANIE/lnk_rejestracja""))",Chrome 109.0.0.0,,,2023-01-28 01:33:09,2023-01-28 01:33:09,"0,864s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/email""), email)",Chrome 109.0.0.0,,,2023-01-28 01:33:09,2023-01-28 01:33:10,"1,105s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/haslo""), haslo)",Chrome 109.0.0.0,,,2023-01-28 01:33:10,2023-01-28 01:33:11,"0,842s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/powhaslo""), powhaslo)",Chrome 109.0.0.0,,,2023-01-28 01:33:11,2023-01-28 01:33:12,"1,150s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/imie""), imie)",Chrome 109.0.0.0,,,2023-01-28 01:33:12,2023-01-28 01:33:13,"0,736s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/nazwisko""), nazwisko)",Chrome 109.0.0.0,,,2023-01-28 01:33:13,2023-01-28 01:33:14,"1,064s",PASSED
+"setText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/telefon""), telefon)",Chrome 109.0.0.0,,,2023-01-28 01:33:14,2023-01-28 01:33:15,"0,729s",PASSED
+"click(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/cookie""))",Chrome 109.0.0.0,,,2023-01-28 01:33:15,2023-01-28 01:33:16,"0,612s",PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 109.0.0.0,,,2023-01-28 01:33:16,2023-01-28 01:33:16,"0,075s",PASSED
+"click(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/potwierdzenie""))",Chrome 109.0.0.0,,,2023-01-28 01:33:16,2023-01-28 01:33:16,"0,528s",PASSED
+"click(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/rejestruj""))",Chrome 109.0.0.0,,,2023-01-28 01:33:16,2023-01-28 01:33:17,"0,834s",PASSED
+"el_error_msg = getText(findTestObject(""Object Repository/DIETETYKA_REJESTRACJA/str_error_msg""))",Chrome 109.0.0.0,,,2023-01-28 01:33:17,2023-01-28 01:33:18,"0,500s",PASSED
+assert error_msg == el_error_msg,Chrome 109.0.0.0,,,2023-01-28 01:33:18,2023-01-28 01:33:18,"0,005s",PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-28 01:33:18,2023-01-28 01:33:18,"0,662s",PASSED
